@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retroblog / Registrarse</title>
+
+    <link  rel="stylesheet" type="text/css" href = "style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body class="bodyregister">
+    <div class="registerbox"> 
+        <img src="https://www.rcemlearning.org/wp-content/uploads/blank-user-icon-image-300x300.jpg" style="width: 100px; height: 100px; border-radius: 50%; position: absolute; top: -50px; left: calc(50% - 50px);">
+        <form method="POST" id="RegisterForm">
+            <fieldset>
+                <legend style="margin: 0; padding: 0 0 20px; text-align: center; font-size: 22px; color: rgb(51, 6, 9);"> Crear una cuenta </legend>
+                <p> Nombres  <input type="text" placeholder="Escribe tus nombres" name="Nombre" id="Nm" required autocomplete="off"/> </p>
+                <p> Apellidos <input type="text" placeholder="Escribe tus apellidos" name="Apellidos" id="Ap" required autocomplete="off"/> </p>
+                <p> Fecha de nacimiento <input type="date" name="FechaNacimiento" id="fechaNacimiento" required/> </p>
+                <p> Nombre de usuario <input type="text" placeholder="Escribe tu usuario" maxlength="10" name="User"  required autocomplete="off"/> </p>
+                <p> Contraseña <input type="password" placeholder="Escribe aquí la contraseña" minlength="8" name="Contra" id="c1" required /> </p>
+                <p> Confirmar contraseña <input type="password" name="confirmarContraseña" id="c2" required/> </p>
+                <p> Correo electrónico <input type="email" placeholder="Escribe tu correo electrónico" name="Correo"  id="email" required /> </p>
+                <p> Cargar icono de perfil </p> <br>
+                <input type="file" name="fotoPerfil" id="fotoSeleccionada" required/> <br>
+                <img id= "vistaPrevia">
+            </fieldset>
+            <br>
+        <input id="btn_submit" type="submit" value="Registrarse" >
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+   
+    <script src="register.js"></script>
+</body>
+</html>

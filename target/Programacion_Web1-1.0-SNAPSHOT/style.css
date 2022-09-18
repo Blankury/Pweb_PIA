@@ -1,0 +1,236 @@
+header{
+    z-index: 100;
+    height: 70px;
+    position:fixed;
+    background-color: rgb(50, 51, 110);
+    width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    height: 150px;
+    background-color:  rgb(50, 51, 110);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer fieldset{
+    color: rgb(51, 6, 9);;
+    background-color: rgb(183, 192, 245);
+    opacity: 70%;
+    width: 50%; 
+    transform: translate(50%, 0%);
+    border-radius: 22px;
+}
+
+li{
+    margin: 10px;
+    color: maroon;
+}
+
+h6{
+    color: rgb(51, 6, 9);
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+select{
+    color:rgb(51, 6, 9);
+    border-color: rgb(43, 6, 44);
+    border: solid 2px;
+    opacity: 80%;
+    background-color: white; 
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    opacity: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    background: rgb(183, 192, 245);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius:22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.perfil p{
+    margin: 0px 10px;
+    color: rgb(51, 6, 9);
+    font-weight: bold;
+}
+
+.perfil label{
+    color: rgb(51, 6, 9);
+}
+
+.botones{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: rgb(8, 173, 223);
+    color: snow;
+}
+
+.botones2{
+    border: none;
+    outline: none;
+    background: rgb(8, 173, 223);
+    color: snow;
+    border-radius: 10px;
+    float: right;
+}
+.categorías{
+    background-color:  rgb(183, 192, 245);
+    border-radius: 22px;
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.categorías a{
+    color: rgb(51, 6, 9);
+    text-decoration-line: none;
+}
+
+.categorías li{
+    transform: translate(-15%, 0%);
+    width: 100%;
+    float: left;
+}
+
+.publicación{
+    background-color:  rgb(183, 192, 245);
+    border-radius: 22px;
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.publicación textarea{
+    width: 100%;
+    border:none;
+}
+
+.bodylogin{
+    margin: 0;
+    padding: 0;
+    background: url(https://static.vecteezy.com/system/resources/previews/002/056/847/non_2x/retro-futurism-sunset-background-free-vector.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 22px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgb(183, 192, 245);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0; 
+    font-weight: bold;
+    color: rgb(51, 6, 9);
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(8, 173, 223);
+    color: #fff;
+    font-size:  18px;
+    border-radius: 20px;
+}
+
+.loginbox a{
+    text-decoration:  none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(51, 6, 9);
+}
+
+.loginbox a:hover{
+    color:crimson;
+}
+
+.bodyregister{
+    margin: 0;
+    padding: 0;
+    background: url(https://static.vecteezy.com/system/resources/previews/002/056/847/non_2x/retro-futurism-sunset-background-free-vector.jpg);
+    background-size:auto;
+    background-position: top;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.registerbox{
+    width: 420px;
+    background: rgb(183, 192, 245);
+    color: #fff;
+    top: 85%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:22px;
+}
+
+.registerbox p{
+    margin: 0;
+    padding: 0; 
+    font-weight: bold;
+    color: rgb(51, 6, 9);
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registerbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(8, 173, 223);
+    color: #fff;
+    font-size:  18px;
+    border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+
+.body{
+    padding: 20px;
+    background-color: rgb(35, 21, 58);
+    width: 100%;
+    
+}
+
+div{
+    color: yellow;
+    background-color: maroon;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Retroblog / Iniciar sesión</title>
+  
+    <link  rel="stylesheet" type="text/css" href = "style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bodylogin">
+    <div class="loginbox">
+        <img src="https://www.rcemlearning.org/wp-content/uploads/blank-user-icon-image-300x300.jpg" style="width: 100px; height: 100px; border-radius: 50%; position: absolute; top: -50px; left: calc(50% - 50px);">
+        
+        <form action="index.html" method="POST" id="loginForm">
+
+            <fieldset>
+                <legend style="margin: 0; padding: 0 0 20px; text-align: center; font-size: 22px; color: rgb(51, 6, 9);">Iniciar sesión</legend>
+                <p> Nombre de usuario</p>
+                <input type="text" name="User" id="Usuario" placeholder="Escribe tu usuario" required maxlength="10" autocomplete="off"/>
+                <p> Contraseña</p>
+                <input type="password" name="Nombre" id="Password" placeholder="Escribe tu contraseña"  maxlength="25" />
+            </fieldset>
+            
+            <input type="submit" value="Iniciar" style="color: white;"> <br>
+            <a href="register.html">  ¿No tienes una cuenta? <b>Regístrate</b> </a>
+
+        </form>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
+
+
+
