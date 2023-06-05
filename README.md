@@ -1,3 +1,3 @@
 "# Pweb_PIA" 
 
-NetBeans, Java 11, Tomcat 
+NetBeans, Java 11, Tomcat, MySQL
